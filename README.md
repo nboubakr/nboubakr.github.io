@@ -1,2 +1,2 @@
-# nboubakr.github.io
+# Boubakr Nour
 Personal Academic Website
