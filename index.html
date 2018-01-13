@@ -93,22 +93,40 @@
 
 <main class="o-page__content">
     <header class="c-navbar u-mb-medium">
-        <button class="c-sidebar-toggle u-mr-small">
-            <span class="c-sidebar-toggle__bar"></span>
-            <span class="c-sidebar-toggle__bar"></span>
-            <span class="c-sidebar-toggle__bar"></span>
-        </button>
-
-        <h2 class="c-navbar__title u-mr-auto">It's Beautiful To Be Alive After Your Death !</h2>
+        <nav class="c-nav js-nav">
+            <ul class="c-nav__list u-text-small">
+                <li class="c-nav__item">
+                    <span class="fa fa-google u-color-info u-mr-small"></span>
+                    <a class="c-nav__link" target="_blank"
+                       href="https://scholar.google.com/citations?hl=en&user=yQdRNFEAAAAJ&view_op=list_works&sortby=pubdate">Google
+                        Scholar</a>
+                </li>
+                <li class="c-nav__item">
+                    <span class="fa fa-search u-color-info u-mr-small"></span>
+                    <a class="c-nav__link" target="_blank" href="https://www.researchgate.net/profile/Boubakr_Nour">Research
+                        Gate</a>
+                </li>
+                <li class="c-nav__item">
+                    <span class="fa fa-user u-color-info u-mr-small"></span>
+                    <a class="c-nav__link" target="_blank" href="http://orcid.org/0000-0001-5609-856X">ORCID</a>
+                </li>
+                <li class="c-nav__item">
+                    <span class="fa fa-linkedin u-color-info u-mr-small"></span>
+                    <a class="c-nav__link" target="_blank" href="https://www.linkedin.com/in/nboubakr/">LinkedIn</a>
+                </li>
+                <li class="c-nav__item">
+                    <span class="fa fa-twitter u-color-info u-mr-small"></span>
+                    <a class="c-nav__link" target="_blank" href="https://twitter.com/nboubakr">Twitter</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <div class="container-fluid">
 
         <div class="row">
-
-            <div class="col-xl-8 col-lg-8">
-
-                <div class="c-progress-card">
+            <div class="col-xl-8">
+                <div class="c-progress-card u-mb-xsmall">
                     <div class="u-flex u-justify-between u-align-items-center u-mb-small">
                         <h6 class="u-m-zero">Profile Summary</h6>
                     </div>
@@ -145,26 +163,26 @@
                         <div class="col-6 col-md-2"></div>
                         <div class="col-6 col-md-3 u-border-right">
                             <div class="c-overview-card__section">
-                                <h3 class="u-nospace">2</h3>
+                                <h3 class="u-nospace" id="conferencePapers"></h3>
                                 <p class="u-text-mute u-nospace">Conference Papers</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3 u-border-right">
                             <div class="c-overview-card__section">
-                                <h3 class="u-nospace">0</h3>
+                                <h3 class="u-nospace" id="journalPapers"></h3>
                                 <p class="u-text-mute u-nospace">Journal Papers</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="c-overview-card__section">
-                                <h3 class="u-nospace">1</h3>
+                                <h3 class="u-nospace" id="totalCitations"></h3>
                                 <p class="u-text-mute u-nospace">Citations</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <ol class="c-stream">
+                <ol class="c-stream u-mb-xsmall">
                     <li class="c-stream-item o-media">
                         <div class="o-media__img u-mr-small">
                             <div class="c-avatar c-avatar--xlarge u-inline-block">
@@ -186,145 +204,84 @@
                                     href="http://www.univ-sba.dz/" target="_blank">Djillali Liabes University</a>, Sidi
                                 Bel Abbes, Algeria. His major research interests are in <i>Next-Generation
                                 Networking and Internet</i>, <i>Information-Centric Networking</i>,
-                                <i>Internet of Things</i> and <i>Wireless Sensor Networks</i>. He is a member of the
+                                <i>Internet of Things</i> and <i>Wireless Sensor Networks</i>. He is a student member of
+                                the
                                 IEEE, IEEE Communications Society, and ACM.</p></p>
                         </div>
                     </li>
                 </ol>
 
-                <div class="c-progress-card">
+                <div class="c-progress-card u-mb-xsmall">
                     <div class="u-flex u-justify-between u-align-items-center u-mb-small">
                         <h6 class="u-m-zero">Academic Distinctions</h6>
                     </div>
                     <div class="u-flex u-justify-between u-mb-xsmall">
+                        <a href="#_" class="lightbox" id="excellent_student_award_2017">
+                            <img src="img/awards/excellent_student_award_2017.png"
+                                 alt="Boubakr Nour, Excellent Student Award 2016/2017, Beijing Institute of Technology">
+                        </a>
                         <span class="u-text-small">
                             <i class="fa fa-circle u-color-facebook u-mr-xsmall u-text-xsmall"></i>
-                            <a data-toggle="modal" data-target="#excellent_student_award_2017">Excellent Student Award 2016/2017</a> , Beijing Institute of Technology
+                            <a href="#excellent_student_award_2017" class="u-text-xsmall">Excellent Student Award 2016/2017</a>
+                            <span class="u-text-xsmall"> , Beijing Institute of Technology</span>
                         </span>
                         <span class="u-text-xsmall u-text-mute">Dec 2017</span>
                     </div>
                 </div>
+            </div>
 
-                <div class="c-modal modal fade" id="excellent_student_award_2017" tabindex="-1" role="dialog"
-                     aria-labelledby="excellent_student_award_2017" data-backdrop="static">
-                    <div class="c-modal__dialog modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="c-onboard">
-                                <header class="c-onboard__header">
-                                    <h1 class="c-onboard__title">Excellent Student Award 2016/2017</h1>
-                                    <button class="c-onboard__close c-close" data-dismiss="modal"
-                                            aria-label="Close">
-                                        <i class="fa fa-close"></i>
-                                    </button>
-                                </header>
-                                <div class="c-onboard__img">
-                                    <img src="img/awards/excellent_student_award_2017.jpg" alt="About image">
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-xl-4">
+
+                <div class="c-card u-p-xsmall u-mb-xsmall">
+                    <div class="u-flex u-justify-between u-align-items-center u-mb-xsmall">
+                        <h6 class="u-m-zero">Recent Updates</h6>
+                        <a class="u-text-small" href="updates.html">Show All</a>
+                    </div>
+
+                    <div class="u-mb-xsmall">
+                        <ul class="u-text-xsmall">
+                            <li><i class="fa fa-star u-color-info u-mr-auto"></i>
+                                Received : <em class="u-color-info">Excellent Student Award 2016/2017,</em> Beijing
+                                Institute of Technology.
+                            </li>
+                            <li><i class="fa fa-file u-color-info u-mr-auto"></i>
+                                Paper Accepted in IEEE GLOBECOM 2017: <em class="u-color-info">A Distributed ICN-based
+                                    IoT Network Architecture - An Ambient Assisted Living Application Case Study.</em>
+                            </li>
+                            <li><i class="fa fa-file u-color-info u-mr-auto"></i>
+                                Paper Accepted in WASA 2017: <em class="u-color-info">M2HAV - A Standardized ICN Naming
+                                    Scheme for Wireless Devices in Internet of Things.</em>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="c-progress-card">
-                    <div class="u-flex u-justify-between u-align-items-center u-mb-small">
+                <div class="c-card u-p-xsmall u-mb-xsmall">
+                    <div class="u-flex u-justify-between u-align-items-center u-mb-xsmall">
                         <h6 class="u-m-zero">Research Interest</h6>
                     </div>
-                    <div class="u-flex u-justify-between u-mb-xsmall">
-                        <ul class="u-text-small">
+
+                    <div class="u-mb-xsmall">
+                        <ul class="u-text-xsmall">
                             <li>
-                                <span class="fa fa-square u-color-info u-mr-xsmall u-text-xsmall"></span>
+                                <span class="fa fa-square u-color-info"></span>
                                 Next-Generation Networking and Internet
                             </li>
                             <li>
-                                <span class="fa fa-square u-color-info u-mr-xsmall u-text-xsmall"></span>
+                                <span class="fa fa-square u-color-info"></span>
                                 Information-Centric Networking
                             </li>
                             <li>
-                                <span class="fa fa-square u-color-info u-mr-xsmall u-text-xsmall"></span>
+                                <span class="fa fa-square u-color-info"></span>
                                 Internet of Things
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="c-progress-card">
-                    <div class="u-flex u-justify-between u-align-items-center u-mb-small">
-                        <h6 class="u-m-zero">External Links</h6>
-                    </div>
-                    <div class="u-flex u-justify-between u-mb-xsmall">
-                        <ul class="u-text-small">
-                            <li>
-                                <span class="fa fa-google u-color-info u-mr-xsmall u-text-xsmall"></span>
-                                <a href="https://scholar.google.com/citations?hl=en&user=yQdRNFEAAAAJ&view_op=list_works&sortby=pubdate"
-                                   target="_blank">Google Scholar</a>
-                            </li>
-                            <li>
-                                <span class="fa fa-search u-color-info u-mr-xsmall u-text-xsmall"></span>
-                                <a href="https://www.researchgate.net/profile/Boubakr_Nour" target="_blank">Research
-                                    Gate</a>
-                            </li>
-                            <li>
-                                <span class="fa fa-user u-color-info u-mr-xsmall u-text-xsmall"></span>
-                                <a href="http://orcid.org/0000-0001-5609-856X" target="_blank">ORCID</a>
-                            </li>
-                            <li>
-                                <span class="fa fa-linkedin u-color-info u-mr-xsmall u-text-xsmall"></span>
-                                <a href="https://www.linkedin.com/in/nboubakr/" target="_blank"> LinkedIn</a>
-                            </li>
-                            <li>
-                                <span class="fa fa-twitter u-color-info u-mr-xsmall u-text-xsmall"></span>
-                                <a href="https://twitter.com/nboubakr" target="_blank"> Twitter</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 u-p-zero u-hidden-down@desktop">
-                <div class="c-card u-p-small">
-
-                    <div class="u-flex u-justify-between u-align-items-center u-mb-small">
-                        <h6 class="u-m-zero">Recent Updates</h6>
-                        <a class="u-text-small" href="updates.html">Show All</a>
-                    </div>
-
-                    <div class="o-media u-mb-small">
-                        <ul class="u-text-xsmall">
-                            <li><i class="fa fa-arrow-right u-color-info u-mr-auto"></i>
-                                Received : <em class="u-color-info">Excellent Student Award 2016/2017,</em> Beijing
-                                Institute of Technology.
-                            </li>
-                            <li><i class="fa fa-arrow-right u-color-info u-mr-auto"></i>
-                                Paper Accepted in IEEE GLOBECOM 2017: <em class="u-color-info">A Distributed ICN-based
-                                    IoT Network Architecture - An Ambient Assisted Living Application Case Study.</em>
-                            </li>
-                            <li><i class="fa fa-arrow-right u-color-info u-mr-auto"></i>
-                                Paper Accepted in WASA 2017: <em class="u-color-info">M2HAV - A Standardized ICN Naming
-                                    Scheme for Wireless Devices in Internet of Things.</em>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <span class="c-divider u-mv-medium"></span>
-
-                    <div class="u-flex u-justify-between u-align-items-center u-mb-small">
+                <div class="c-card u-p-small u-mb-xsmall">
+                    <div class="u-flex u-justify-between u-align-items-center u-mb-xsmall">
                         <h6 class="u-m-zero">Top Co-authors</h6>
-                    </div>
-
-                    <div class="o-media u-mb-small">
-                        <div class="o-media__img">
-                            <div class="c-avatar c-avatar--small u-mr-small">
-                                <img class="c-avatar__img" src="img/people/fan_li.jpg" alt="Fan Li">
-                            </div>
-                        </div>
-                        <div class="o-media__body">
-                            <a class="u-text-small u-text-dark"
-                               href="https://scholar.google.com/citations?hl=en&user=7KohfEEAAAAJ&view_op=list_works"
-                               target="_blank">Fan Li</a>
-                            <div>
-                                <small class="u-text-mute">@Beijing Institute of Technology, China</small>
-                            </div>
-                        </div>
                     </div>
 
                     <div class="o-media u-mb-small">
@@ -338,7 +295,7 @@
                                href="https://scholar.google.com/citations?hl=en&user=isd9mO0AAAAJ&view_op=list_works"
                                target="_blank">Kashif Sharif</a>
                             <div>
-                                <small class="u-text-mute">@Beijing Institute of Technology, China</small>
+                                <small class="u-text-xsmall u-text-mute">@Beijing Institute of Technology, China</small>
                             </div>
                         </div>
                     </div>
@@ -346,25 +303,45 @@
                     <div class="o-media u-mb-small">
                         <div class="o-media__img">
                             <div class="c-avatar c-avatar--small u-mr-small">
-                                <img class="c-avatar__img" src="img/people/hassine_moungla.png" alt="Hassine Moungla">
+                                <img class="c-avatar__img" src="img/people/fan_li.jpg" alt="Fan Li">
+                            </div>
+                        </div>
+                        <div class="o-media__body">
+                            <a class="u-text-small u-text-dark"
+                               href="https://scholar.google.com/citations?hl=en&user=7KohfEEAAAAJ&view_op=list_works"
+                               target="_blank">Fan Li</a>
+                            <div>
+                                <small class="u-text-xsmall u-text-mute">@Beijing Institute of Technology, China</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="o-media u-mb-small">
+                        <div class="o-media__img">
+                            <div class="c-avatar c-avatar--small u-mr-small">
+                                <img class="c-avatar__img" src="img/people/hassine_moungla.jpg" alt="Hassine Moungla">
                             </div>
                         </div>
                         <div class="o-media__body">
                             <a class="u-text-small u-text-dark" href="http://www.mi.parisdescartes.fr/~mounglah/"
                                target="_blank">Hassine Moungla</a>
                             <div>
-                                <small class="u-text-mute">@University of Paris Descartes, France</small>
+                                <small class="u-text-xsmall u-text-mute">@University of Paris Descartes, France</small>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
+
     </div>
 
 </main>
 
 <script src="js/main.min.js"></script>
+<script src="js/val.js"></script>
 
 </body>
 </html>
