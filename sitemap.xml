@@ -32,12 +32,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nboubakr.github.io/publications_year.html</loc>
-        <lastmod>2017-12-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://nboubakr.github.io/education.html</loc>
         <lastmod>2017-12-01</lastmod>
         <changefreq>yearly</changefreq>
