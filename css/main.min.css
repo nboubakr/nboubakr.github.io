@@ -41,7 +41,7 @@ button {
     cursor: pointer
 }
 
-ol, ul {
+ul, ol {
     margin: 0;
     padding: 0;
     list-style-type: none
@@ -13651,4 +13651,9 @@ textarea.c-input {
 
     /** Unhide lightbox **/
     display: block;
+}
+
+.reverse-ol {
+    margin-left: 20px;
+    list-style-type: decimal-leading-zero;
 }
