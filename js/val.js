@@ -1,6 +1,6 @@
-var journalPapers = 0;
+var journalPapers = 1;
 var conferencePapers = 2;
-var totalCitations = 1;
+var totalCitations = 2;
 
 $(document).ready(function () {
     $("#journalPapers").text(journalPapers);
