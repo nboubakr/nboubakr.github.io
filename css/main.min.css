@@ -8569,7 +8569,7 @@ a.fc-more:hover {
 
 .c-table__title {
     position: relative;
-    padding: 25px 30px;
+    padding: 15px 20px;
     border: 1px solid #e6eaee;
     border-bottom: 0;
     border-radius: 4px 4px 0 0;
@@ -8644,7 +8644,7 @@ a.fc-more:hover {
 }
 
 .c-table__cell {
-    padding: 20px 0 20px 30px;
+    padding: 10px 0 10px 20px;
     color: #354052;
     font-size: .875rem;
     font-weight: 500;
@@ -12973,7 +12973,7 @@ textarea.c-input {
 }
 
 .u-mb-large {
-    margin-bottom: 3.125rem !important
+    margin-bottom: 1.125rem !important
 }
 
 .u-ml-large {
