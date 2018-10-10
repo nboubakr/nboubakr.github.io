@@ -1,5 +1,5 @@
 var bookChapters = 1;
-var journalPapers = 2;
+var journalPapers = 3;
 var conferencePapers = 7;
 var totalCitations = "12+";
 
