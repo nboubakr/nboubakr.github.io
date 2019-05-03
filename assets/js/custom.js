@@ -6,9 +6,9 @@
  *
  * ---------------------------------------------------------------------------- */
 var bookChapters = 1;
-var journalPapers = 4;
-var conferencePapers = 9;
-var totalCitations = "25+";
+var journalPapers = 6;
+var conferencePapers = 11;
+var totalCitations = "50+";
 
 $(document).ready(function () {
     $("#bookChapters").text(bookChapters);
