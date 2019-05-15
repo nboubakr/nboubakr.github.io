@@ -6,7 +6,7 @@
  *
  * ---------------------------------------------------------------------------- */
 var bookChapters = 1;
-var journalPapers = 6;
+var journalPapers = 7;
 var conferencePapers = 11;
 var totalCitations = "50+";
 
