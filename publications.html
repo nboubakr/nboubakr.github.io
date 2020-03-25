@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Boubakr Nour, Ph.D | Personal Academic Website</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
-          type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
     <link href="global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
@@ -23,7 +23,8 @@
     <script src="assets/js/bibtex_js.js"></script>
     <script src="assets/js/custom.js"></script>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <bibtex src="https://dl.dropbox.com/s/wzt6d7zdga7e694/publications.bib"></bibtex>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107050630-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -230,7 +231,6 @@
                 <!-- /info alert -->
 
                 <!-- Publications -->
-                <bibtex src="https://raw.githubusercontent.com/nboubakr/nboubakr.github.io/master/bib/publications.bib"></bibtex>
                 <div class="bibtex_structure">
                     <div class="sections bibtextypekey">
                         <div class="section article">
@@ -240,7 +240,7 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="list-feed list-feed-solid mt-1" style="text-align: justify;">
-                                        <div class="group year" extra="DESC number">
+                                        <div class="sort year" extra="DESC number">
                                             <div class="templates"></div>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="list-feed list-feed-solid mt-1" style="text-align: justify;">
-                                        <div class="group year" extra="DESC number">
+                                        <div class="sort year" extra="DESC number">
                                             <div class="templates"></div>
                                         </div>
                                     </div>
@@ -263,14 +263,14 @@
                             </div>
                         </div>
                       
-                        <div class="section book|bookchapter">
+                        <div class="section book|incollection">
                             <div class="card">
                                 <div class="card-header header-elements-inline">
                                     <h6 class="card-title">Book Chapters</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="list-feed list-feed-solid mt-1" style="text-align: justify;">
-                                        <div class="group year" extra="DESC number">
+                                        <div class="sort year" extra="DESC number">
                                             <div class="templates"></div>
                                         </div>
                                     </div>
@@ -281,11 +281,11 @@
                         <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
                             <div class="card">
                                 <div class="card-header header-elements-inline">
-                                    <h6 class="card-title">Book Chapters</h6>
+                                    <h6 class="card-title">Other Publications</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="list-feed list-feed-solid mt-1" style="text-align: justify;">
-                                        <div class="group year" extra="DESC number">
+                                        <div class="sort year" extra="DESC number">
                                             <div class="templates"></div>
                                         </div>
                                     </div>
@@ -301,26 +301,26 @@
                         <div class="list-feed-item border-dark">
                             <span class="author"></span>.
                             “<span class="font-weight-semibold title"></span>”,
-                            <span class="if journal"><span class="journal"></span>,</span>
-                            <span class="if booktitle">In <span class="booktitle"></span>,</span>
+                            <span class="if journal"><em><span class="journal"></span></em>,</span>
+                            <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
                             <span class="if editor"><span class="editor"></span>,</span>
                             <span class="if publisher"><span class="publisher"></span>,</span>
                             <span class="if institution"><span class="institution"></span>,</span>
                             <span class="if address"><span class="address"></span>,</span>
-                            <span class="if volume"><span class="volume"></span>,</span>
-                            <span class="if journal number">(<span class="number"></span>),</span>
-                            <span class="if pages"> pages <span class="pages"></span>,</span>
-                            <span class="if month"><span class="month"></span>,</span>
+                            <span class="if volume">vol. <span class="volume"></span>,</span>
+                            <span class="if number">no. <span class="number"></span>,</span>
+                            <span class="if pages"> pp. <span class="pages"></span>,</span>
+                            <span class="if month"><span class="month"></span></span>
                             <span class="if year"><span class="year"></span>.</span>
                             <span class="if note"><span class="text-danger-800 font-weight-semibold">[<span class="note"></span>]</span>.</span>
-                            <span class="if doi"><span class="doi"></span>.</span>
-                            <!-- <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                [Download]
-                            </a> -->
+                            <span class="if doi">
+                                <a class="bibtexVar" target="_blank" href="http://dx.doi.org/+DOI+" extra="doi">
+                                  [Download<span class="if publisher">@<span class="publisher"></span></span>]
+                                </a>
+                            </span>
                         </div>
 
                         <div style="display:none"><span class="bibtextype"></span></div>
-                        <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
                     </div>
                 </div>
                 
