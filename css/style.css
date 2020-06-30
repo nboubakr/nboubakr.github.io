@@ -40,40 +40,8 @@ ul.moreindent {margin: 0 0 20px 0;}
 ul.moreindent li {margin-left: 20px;}
 table ul {margin: 0 0 0 0;}
 table ul li {margin-left: 17px;}
-
-table {
-  border-width: 1px;
-  border-spacing: 0;
-  border-style: none;
-  border-color: #ddd;
-  border-collapse: collapse;
-  background-color: white;
-}
-
-table th {
-  border-width: 1px;
-  padding: 3px 8px;
-  border-style: solid;
-  border-color: #ddd;
-  background-color: #eee;
-  color: #808080;
-  font-weight: bold;
-}
-
-table td {
-  border-width: 1px;
-  padding: 3px 8px;
-  border-style: solid;
-  border-color: #ddd;
-}
-
-#photo {
-  width: 100%;
-  background:white;
-  margin:0;
-  text-align: center;
-  padding-bottom: 15px;
-  color: #ddd;
-}
-
-#photo a, #photo a:visited, #photo a:active, #photo a:hover { color: #ddd; }
+table {border-width: 1px; border-spacing: 0; border-style: none; border-color: #ddd; border-collapse: collapse; background-color: white;}
+table th {border-width: 1px; padding: 3px 8px; border-style: solid; border-color: #ddd; background-color: #eee; color: #808080; font-weight: bold;}
+table td {border-width: 1px; padding: 3px 8px; border-style: solid; border-color: #ddd;}
+#photo {width: 100%; background:white; margin:0; margin-bottom: 15px; text-align: center; color: #ddd;}
+#photo a, #photo a:visited, #photo a:active, #photo a:hover {color: #ddd;}
