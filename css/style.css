@@ -46,3 +46,5 @@ table th {border-width: 1px; padding: 3px 8px; border-style: solid; border-color
 table td {border-width: 1px; padding: 3px 8px; border-style: solid; border-color: #ddd;}
 #photo {width: 100%; background:white; margin:0; margin-bottom: 15px; text-align: center; color: #ddd;}
 #photo a, #photo a:visited, #photo a:active, #photo a:hover {color: #ddd;}
+ol li {font-weight:bold; color:#2a5a9a;}
+li > p {font-weight:normal; color: #303030;}

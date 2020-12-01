@@ -4,10 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Boubakr Nour, Ph.D. | Personal Academic Website</title>
-  
+  <title>Boubakr Nour, Ph.D. | Personal Academic Website</title> 
+
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, handheld" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+
   <script src="js/bibtex_js.js"></script>
   <bibtex src="https://dl.dropbox.com/s/wzt6d7zdga7e694/publications.bib"></bibtex>
 
@@ -24,20 +28,21 @@
 
         gtag('config', 'UA-107050630-1');
     </script>
+
 </head>
 
 <body>
   <div id="wrap">
     <div id="sidebar">
       <div id="photo">
-        <img src="photo.jpg" style="border: none; width:170px;" alt="Boubakr Nour"/>
+        <img src="img/boubakr_nour.jpg" style="border: none; width:170px;" alt="Boubakr Nour"/>
       </div>
       <ul>
         <li><a href="#education">Education</a></li>
         <li><a href="#pub_journals">Publications</a></li>
         <li><a href="#journal_editorials">Professional Services</a></li>
         <li><a href="#work">Work & Positions</a></li>
-        <li><a href="#awards">Honors & Awards</a></li>
+        <li><a href="#honors_awards">Honors & Awards</a></li>
       </ul>
     </div>
     <div id="content">
@@ -97,35 +102,45 @@
           <div class="section article">
             <h2><a name="pub_journals">Journal & Magazine Articles</a></h2>
             <div class="sort year" extra="DESC number">
-              <div class="templates"></div>
+              <ol reversed>
+                <div class="templates"></div>
+              </ol>
             </div>
           </div>
           
           <div class="section inproceedings">
             <h2><a name="pub_conferences">International Conferences</a></h2>
             <div class="sort year" extra="DESC number">
-              <div class="templates"></div>
+              <ol reversed>
+                <div class="templates"></div>
+              </ol>
             </div>
           </div>
         
           <div class="section book|incollection">
             <h2><a name="pub_books">Book Chapters</a></h2>
             <div class="sort year" extra="DESC number">
-              <div class="templates"></div>
+              <ol reversed>
+                <div class="templates"></div>
+              </ol>
             </div>
           </div>
           
           <div class="section phdthesis|mastersthesis">
             <h2><a name="pub_thesis">Thesis</a></h2>
             <div class="sort year" extra="DESC number">
-              <div class="templates"></div>
+              <ol reversed>
+                <div class="templates"></div>
+              </ol>
             </div>
           </div>
 
           <div class="section misc|bachelorsthesis|techreport">
             <h2><a name="other">Other Publications</a></h2>
             <div class="sort year" extra="DESC number">
-              <div class="templates"></div>
+              <ol reversed>
+                <div class="templates"></div>
+              </ol>
             </div>
           </div>
         </div>
@@ -158,11 +173,17 @@
       </div>
       
       <h2><a name="journal_editorials">International Journal Editorials</a></h2>
-      <ul>
-        <li><p>Special Issue on <a target="_blank" href="https://onlinelibrary.wiley.com/pb-assets/assets/21613915/SI_Proposal__NG_VANET2-1584443815037.pdf">“Recent Advances on the Emerging Technologies for Connected Vehicles in Smart Cities"</a>, <a target="_blank" href="https://onlinelibrary.wiley.com/journal/21613915">Transactions on Emerging Telecommunications Technologies</a>, 2020.</p></li>
+      <h4>Current On-going Issues</h4>
+      <ol reversed>
+        <li><p>Special Issue on <a target="_blank" href="https://www.frontiersin.org/research-topics/16840/recent-advances-in-flying-ad-hoc-networks-and-their-applications">“Recent Advances in Flying Ad hoc Networks and their Applications"</a>, <a target="_blank" href="https://www.frontiersin.org/journals/communications-and-networks">Frontiers in Communications and Networks</a>, 2021.</p></li>
 
+        <li><p>Special Issue on <a target="_blank" href="https://onlinelibrary.wiley.com/pb-assets/assets/21613915/SI_Proposal__NG_VANET2-1584443815037.pdf">“Recent Advances on the Emerging Technologies for Connected Vehicles in Smart Cities"</a>, <a target="_blank" href="https://onlinelibrary.wiley.com/journal/21613915">Transactions on Emerging Telecommunications Technologies</a>, 2020.</p></li>
+      </ol>
+
+      <h4>Past Issues</h4>
+      <ol reversed>
         <li><p><strong>[Lead GE]</strong> Special Issue on <a target="_blank" href="https://dx.doi.org/10.1016/j.future.2020.08.042">"Information-Centric Network enabler Communication for Internet of Things"</a>, <a target="_blank" href="https://www.journals.elsevier.com/future-generation-computer-systems">Future Generation Computer Systems</a>, 2020.</p></li>
-      </ul>
+      </ol>
 
       <h2><a name="journal_review">Journal Reviewer Services</a></h2>
       <ul>
@@ -187,7 +208,7 @@
         <li><p><a target="_blank" href="http://www.itiis.org/">KSII Transactions on Internet and Information Systems</a></p></li>
         <li><p><a target="_blank" href="https://www.journals.elsevier.com/applied-computing-and-informatics">Applied Computing and Informatics</a></p></li>
       </ul>
-      
+
       <h2><a name="conference_tpc">Conferences TPC Services & Reviewer</a></h2>
       <ul>
         <li><p>[<strong>2019-2021</strong>] IEEE International Conference on Communications (ICC)</p></li>
@@ -195,30 +216,31 @@
         <li><p>[<strong>2019-2020</strong>] IEEE Consumer Communications & Networking Conference (CCNC)</p></li>
         <li><p>[<strong>2018-2020</strong>] IEEE Vehicular Technology Conference (VTC)</p></li>
         <li><p>[<strong>2018-2020</strong>] Intl. Wksp. on Recent Advancements in Future Networking Technologies (RAFNET)</p></li>
-        <li><p>[<strong>2020</strong>] International Conference on Computing, Networking and Communications (ICNC)</p></li>
-        <li><p>[<strong>2020</strong>] International Conference on Blockchain Computing and Applications (BCCA)</p></li>
-        <li><p>[<strong>2020</strong>] International Workshop on Connected Societies (CSOC2020)</p></li>
-        <li><p>[<strong>2020</strong>] Cyber Security in Networking Conference (CSNet)</p></li>
-        <li><p>[<strong>2020</strong>] Intl. Wksp. on Machine Learning for Sensing, Communication and Networking in IoT (ML-IoT)</p></li>
-        <li><p>[<strong>2020</strong>] Intl. Wksp. on Intelligent Transportation and Connected Vehicles Technologies (ITCVT)</p></li>
-        <li><p>[<strong>2020</strong>] Conference on Computing Systems and Applications (CSA)</p></li>
-        <li><p>[<strong>2019</strong>] International Conference on Computer Communications and Networks (ICCCN)</p></li>
-        <li><p>[<strong>2019</strong>] ACM Symposium on Applied Computing</p></li>
-        <li><p>[<strong>2019</strong>] IEEE-GCC Conference & Exhibition (IEEE-GCC)</p></li>
-        <li><p>[<strong>2019</strong>] International Conference on Computing, Networking and Communications (ICNC)</p></li>
-        <li><p>[<strong>2019</strong>] Intl. Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)</p></li>
-        <li><p>[<strong>2019</strong>] IEEE International Conference on Consumer Electronics ( ICCE)</p></li>
-        <li><p>[<strong>2019</strong>] Intl. Symposium on Emerging Technologies in the Era of 5G-based Internet of Things (INSERT-IoT)</p></li>
-        <li><p>[<strong>2019</strong>] Intl. Wksp. on Big Data and Secure Communications in IoT (BDSC-IoT)</p></li>
-        <li><p>[<strong>2019</strong>] Intl. Wksp. on Internet of Autonomous Vehicles (INAVEC)</p></li>
-        <li><p>[<strong>2019</strong>] IEEE Middle East & North Africa Communications Conference (MENACOMM)</p></li>
-        <li><p>[<strong>2019</strong>] Global Information Infrastructure and Networking Symposium (GIIS)</p></li>
-        <li><p>[<strong>2018</strong>] IEEE Vehicular Networking Conference (VNC)</p></li>
-        <li><p>[<strong>2018</strong>] IEEE Conference on Standards for Communications and Networking (CSCN)</p></li>
-        <li><p>[<strong>2018</strong>] International Conference on Wireless Communications and Signal Processing (WCSP)</p></li>
-        <li><p>[<strong>2018</strong>] IEEE International Conference on Ubiquitous Intelligence and Computing (UIC)</p></li>
-        <li><p>[<strong>2018</strong>] International Symposium on Networks, Computers and Communications (ISNCC)</p></li>
-        <li><p>[<strong>2018</strong>] Workshop on Networking and Cybersecurity for Smart Cities (SmartCitySecurity)</p></li>
+        <li><p>[<strong>2020</strong>] IEEE Wireless Communications and Networking Conference (WCNC)</p></li>
+          <li><p>[<strong>2020</strong>] International Conference on Computing, Networking and Communications (ICNC)</p></li>
+          <li><p>[<strong>2020</strong>] International Conference on Blockchain Computing and Applications (BCCA)</p></li>
+          <li><p>[<strong>2020</strong>] International Workshop on Connected Societies (CSOC2020)</p></li>
+          <li><p>[<strong>2020</strong>] Cyber Security in Networking Conference (CSNet)</p></li>
+          <li><p>[<strong>2020</strong>] Intl. Wksp. on Machine Learning for Sensing, Communication and Networking in IoT (ML-IoT)</p></li>
+          <li><p>[<strong>2020</strong>] Intl. Wksp. on Intelligent Transportation and Connected Vehicles Technologies (ITCVT)</p></li>
+          <li><p>[<strong>2020</strong>] Conference on Computing Systems and Applications (CSA)</p></li>
+          <li><p>[<strong>2019</strong>] International Conference on Computer Communications and Networks (ICCCN)</p></li>
+          <li><p>[<strong>2019</strong>] ACM Symposium on Applied Computing</p></li>
+          <li><p>[<strong>2019</strong>] IEEE-GCC Conference & Exhibition (IEEE-GCC)</p></li>
+          <li><p>[<strong>2019</strong>] International Conference on Computing, Networking and Communications (ICNC)</p></li>
+          <li><p>[<strong>2019</strong>] Intl. Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)</p></li>
+          <li><p>[<strong>2019</strong>] IEEE International Conference on Consumer Electronics ( ICCE)</p></li>
+          <li><p>[<strong>2019</strong>] Intl. Symposium on Emerging Technologies in the Era of 5G-based Internet of Things (INSERT-IoT)</p></li>
+          <li><p>[<strong>2019</strong>] Intl. Wksp. on Big Data and Secure Communications in IoT (BDSC-IoT)</p></li>
+          <li><p>[<strong>2019</strong>] Intl. Wksp. on Internet of Autonomous Vehicles (INAVEC)</p></li>
+          <li><p>[<strong>2019</strong>] IEEE Middle East & North Africa Communications Conference (MENACOMM)</p></li>
+          <li><p>[<strong>2019</strong>] Global Information Infrastructure and Networking Symposium (GIIS)</p></li>
+          <li><p>[<strong>2018</strong>] IEEE Vehicular Networking Conference (VNC)</p></li>
+          <li><p>[<strong>2018</strong>] IEEE Conference on Standards for Communications and Networking (CSCN)</p></li>
+          <li><p>[<strong>2018</strong>] International Conference on Wireless Communications and Signal Processing (WCSP)</p></li>
+          <li><p>[<strong>2018</strong>] IEEE International Conference on Ubiquitous Intelligence and Computing (UIC)</p></li>
+          <li><p>[<strong>2018</strong>] International Symposium on Networks, Computers and Communications (ISNCC)</p></li>
+          <li><p>[<strong>2018</strong>] Workshop on Networking and Cybersecurity for Smart Cities (SmartCitySecurity)</p></li>
       </ul>
 
       <h2><a name="work">Work Experience & Positions</a></h2>
@@ -243,15 +265,38 @@
         &#9632; Prepare and deliver technical presentations and workshops<br />
       </p>
 
-      <h2><a name="awards">Honors & Awards</a></h2>
+      <h2><a name="honors_awards">Honors & Awards</a></h2>
       <ul>
-        <li><p> <strong>Dec 2019</strong>: Excellent Student Award 2018/2019, Beijing Institute of Technology</p></li>
-        <li><p> <strong>Dec 2018</strong>: Excellent Student Award 2017/2018, Beijing Institute of Technology</p></li>
-        <li><p> <strong>Dec 2018</strong>: IEEE GLOBECOM 2018 Best Paper Award</p></li>
-        <li><p> <strong>Oct 2018</strong>: Web Co-Chair and Local Organization Member, IEEE CSCN</p></li>
-        <li><p> <strong>Sep 2018</strong>: IEEE ComSoc Student Travel Grant, IEEE GLOBECOM 2018</p></li>
-        <li><p> <strong>Dec 2017</strong>: Excellent Student Award 2016/2017, Beijing Institute of Technology</p></li>
-        <li><p> <strong>Feb 2016</strong>: PhD Scholarship Award, Chinese Government Scholarship</p></li>
+        <li><p> <strong>Dec 2019</strong>: 
+          <a data-fancybox="awards" href="img/excellent_student_award_2019.png" data-caption="Excellent Student Award 2018/2019 - Beijing Institute of Technology">
+            Excellent Student Award 2018/2019
+          </a> - Beijing Institute of Technology
+        </p></li>
+        <li><p> <strong>Dec 2018</strong>: 
+          <a data-fancybox="awards" href="img/excellent_student_award_2018.png" data-caption="Excellent Student Award 2017/2018 - Beijing Institute of Technology">
+            Excellent Student Award 2017/2018
+          </a> - Beijing Institute of Technology
+        </p></li>
+        <li><p> <strong>Dec 2018</strong>: 
+          <a data-fancybox="awards" href="img/ieee_globecom_2018_bpa.png" data-caption=" Best Paper Award - IEEE GLOBECOM 2018">
+            Best Paper Award
+          </a> - IEEE GLOBECOM 2018
+        </p></li>
+        <li><p> <strong>Oct 2018</strong>: 
+          <a data-fancybox="awards" href="img/ieee_cscn_2018.png" data-caption="Web Co-Chair and Local Organization Member - IEEE CSCN 2018">
+            Web Co-Chair and Local Organization Member
+          </a> - IEEE CSCN 2018
+        </p></li>
+        <li><p> <strong>Sep 2018</strong>: 
+          <a target="_blank" href="https://globecom2018.ieee-globecom.org/content/student-travel-grants">
+            IEEE ComSoc Student Travel Grant
+          </a> - IEEE GLOBECOM 2018</p></li>
+        <li><p> <strong>Dec 2017</strong>: 
+          <a data-fancybox="awards" href="img/excellent_student_award_2017.png" data-caption=" Excellent Student Award 2016/2017 - Beijing Institute of Technology">
+            Excellent Student Award 2016/2017
+          </a> - Beijing Institute of Technology
+        </p></li>
+        <li><p> <strong>Feb 2016</strong>: PhD Scholarship Award - Chinese Government Scholarship</p></li>
         <li><p> <strong>Sep 2015</strong>: Certificate of Excellence – 1st Edition of Cisco R&S Competition (ICT Towers)</p></li>
       </ul>
 
