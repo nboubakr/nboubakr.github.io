@@ -34,7 +34,8 @@ h1,h2,h3 {font-weight:700; line-height:1.4em;}
 .timestamp a {font-weight:normal;}
 .credits {display:block; text-align:center; width:100%; font-size:0.9em; color:#aaa; margin:30px 0;}
 .credits a {color:#888;}
-.text-note {color:#D65C4F; font-weight: bold;}
+.text-note-blue {color:#2a5a9a; font-weight: bold;}
+.text-note-red  {color:#D65C4F; font-weight: bold;}
 .clear {clear:both;}
 .announcement {text-align: center; padding: 10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; background:#fff8ba; border: 1px solid #ddcd99; font-size: 116%;}
 ul.moreindent {margin: 0 0 20px 0;}

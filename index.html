@@ -191,7 +191,12 @@
           <li><p>
             <span class="author"></span>.
             “<strong><span class="title"></span></strong>”,
-            <span class="if journal"><em><span class="journal"></span></em>,</span>
+            <span class="if journal">
+              <em><span class="journal"></span></em>,
+              <span class="if note">
+                (<span class="note text-note-blue"></span>),
+              </span>
+            </span>
             <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
             <span class="if editor"><span class="editor"></span>,</span>
             <span class="if institution"><span class="institution"></span>,</span>
@@ -202,7 +207,9 @@
             <span class="if pages"> pp. <span class="pages"></span>,</span>
             <span class="if month"><span class="month"></span></span>
             <span class="if year"><span class="year"></span>.</span>
-            <span class="if note"><span class="text-note">[<span class="note"></span>]</span>.</span>
+            <span class="if booktitle">
+              <span class="if note"><span class="text-note-red">[<span class="note"></span>]</span>.</span>
+            </span>
             <span class="if doi">
               <a class="bibtexVar" target="_blank" href="http://dx.doi.org/+DOI+" extra="doi">[Download<span class="if publisher">@<span class="publisher"></span></span>]</a>.
             </span>
