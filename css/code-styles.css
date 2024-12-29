@@ -1,0 +1,29 @@
+.row {
+  width: 1000px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #007BFF;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}
+
+.social-icons .material-icons {
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+.text-note-blue {color:#2a5a9a; font-weight: bold;}
+.text-note-red  {color:#D65C4F; font-weight: bold;}
